@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    padding: 10px;
+}
+
+input {
+    height: 30px;
+    font-size: 20px;
+    width: 75px;
+    text-align: center;
+}
+
+button {
+    height: 30px;
+    font-size: 10px;
+    width: 100px;
+}
