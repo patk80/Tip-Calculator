@@ -16,6 +16,9 @@ input {
 }
 
 button {
+    background-color: rgb(105, 20, 101);
+    border-radius: 50px;
+    color: #fff;
     height: 30px;
     font-size: 10px;
     width: 100px;
