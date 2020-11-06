@@ -10,6 +10,7 @@ function giveAnswer(){
     let percent =  tipInput.value / 100;    
     let tipAmount = (bill * percent).toFixed(2);
     answer.innerHTML = "$" + tipAmount;
+    tipPercent.style.color = "green";
     answer.style.border = "solid green 3px";
     answer.style.padding = "10px";
     tipPercent.innerHTML = prePercent + "%";
