@@ -5,11 +5,12 @@ body {
 
 .calculator-content {
     background-color: rgb(179, 179, 179);
+    margin: 10px 20%;
+    padding: 10px;
 }
 
 p {
     font-size: 30px;
-    padding: 10px;
 }
 
 input {
