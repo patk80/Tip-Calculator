@@ -10,16 +10,17 @@
 </head>
 
 <body>
+    <div class="calculator-content">
+        <p>Bill Amount: $ <input type="text" name="input" placeholder="XXX.XX" id="bill" maxlength="6"> </p>
 
-    <p>Bill Amount: $ <input type="text" name="input" placeholder="XXX.XX" id="bill" maxlength="6"> </p>
-
-    <p> 
-        Percent you want to tip:
-        <input type="text" name="input" placeholder="XX" id="tipPrePercent" maxlength="2"> %
-        <button>Click here for tip!</button>
-    </p>
-
-    <p>Your <span id="tipPercent"></span> tip should be: <span id="calculatedTip"> </span></span> </p>
+        <p> 
+            Percent you want to tip:
+            <input type="text" name="input" placeholder="XX" id="tipPrePercent" maxlength="2"> %
+            <button>Click here for tip!</button>
+        </p>
+    
+        <p>Your <span id="tipPercent"></span> tip should be: <span id="calculatedTip"> </span></span> </p>
+    </div>
 
     <script src="scripts.js"></script>
 </body>

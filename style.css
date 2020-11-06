@@ -3,6 +3,10 @@ body {
     font-family: 'Exo 2', sans-serif;
 }
 
+.calculator-content {
+    background-color: rgb(179, 179, 179);
+}
+
 p {
     font-size: 30px;
     padding: 10px;
