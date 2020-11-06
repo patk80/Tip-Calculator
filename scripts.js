@@ -19,16 +19,8 @@ button.addEventListener("click", function(){
     giveAnswer();
 });
 
-
-/* Event fired when enter is clicked in an "input"
-
-var input = document.querySelector("input");
-var button = document.querySelector("button");
-
-input.addEventListener("keyup", function(event){
-    if(event.which == 13 || event.keyCode == 13){
-        button.style.color = "red";
+tipInput.addEventListener("keypress", function(e){
+    if(e.which == 13 || e.keyCode == 13){
+        giveAnswer();
     }
 });
-
-*/
