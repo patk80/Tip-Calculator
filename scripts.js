@@ -8,8 +8,8 @@ function giveAnswer(){
     let bill = billInput.value;
     let prePercent = tipInput.value;
     let percent =  tipInput.value / 100;    
-    let tipAmount = (bill * percent).toFixed(2)
-    answer.innerHTML = "$" + tipAmount
+    let tipAmount = (bill * percent).toFixed(2);
+    answer.innerHTML = "$" + tipAmount;
     answer.style.border = "solid green 3px";
     answer.style.padding = "10px";
     tipPercent.innerHTML = prePercent + "%";
