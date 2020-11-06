@@ -27,4 +27,5 @@ button {
     height: 30px;
     font-size: 10px;
     width: 100px;
+    outline: none;
 }
