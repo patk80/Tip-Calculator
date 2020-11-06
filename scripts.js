@@ -4,7 +4,7 @@ let button = document.querySelector("button");
 let answer = document.querySelector("#calculatedTip");
 let tipPercent = document.querySelector("#tipPercent");
 
-button.addEventListener("click", function(){
+function giveAnswer(){
     let bill = billInput.value;
     let prePercent = tipInput.value;
     let percent =  tipInput.value / 100;    
@@ -13,7 +13,12 @@ button.addEventListener("click", function(){
     answer.style.border = "solid green 3px";
     answer.style.padding = "10px";
     tipPercent.innerHTML = prePercent + "%";
+}
+
+button.addEventListener("click", function(){
+    giveAnswer();
 });
+
 
 /* Event fired when enter is clicked in an "input"
 
